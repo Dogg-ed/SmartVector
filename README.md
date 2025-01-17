@@ -44,3 +44,21 @@ int main() {
 ```
 </details>
 
+
+## contents()
+<details>
+Returns: The contents of a vector in a string
+
+Each content is seperated with one space " "
+
+Usage:
+```cpp
+int main() {
+  SmartVector<string> vec;
+  vec.push_back("5");
+  cout << vec.contents() << "\n"; //prints 5
+  return 0;
+}
+```
+</details>
+
