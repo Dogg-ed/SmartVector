@@ -7,10 +7,14 @@ Further instruction on how to use each method can be found below
 ## index_of()
 <details>
 
-Returns the index of a specified object
-Parameter --> 
-T obj: Object you want to find 
-(Make sure your vector only contains objects of type T)
+Returns the index of a specified object  
+
+Parameter -->  
+
+T obj: Object you want to find  
+
+(Make sure your vector only contains objects of type T)  
+
 
 ```cpp
 SmartVector<string> vec;
