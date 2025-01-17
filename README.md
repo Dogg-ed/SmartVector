@@ -17,9 +17,12 @@ T obj: Object you want to find
 
 
 ```cpp
-SmartVector<string> vec;
-vec.push_back("5");
-cout << vec.index_of("5") << "\n"; //prints 0
+int main() {
+  SmartVector<string> vec;
+  vec.push_back("5");
+  cout << vec.index_of("5") << "\n"; //prints 0
+  return 0;
+}
 ```
 
 </details>
